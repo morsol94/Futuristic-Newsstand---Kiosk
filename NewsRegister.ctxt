@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NewsRegister()
+comment0.text=\r\n\ Creates\ a\ hashmap\ for\ collecting\ the\ newspapers.\r\n
+comment1.params=name\ publisher\ issueNumber\ genre
+comment1.target=void\ addNewspaper(java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ This\ method\ adds\ a\ newspaper\ to\ the\ collection,\ fill\ in\ details.\r\n\r\n\ \r\n\ @param\ String\:\ name\ adds\ a\ titlename\ to\ the\ paper.\ String\:\ publisher\ adds\ a\ publisher\ name\ to\ the\ paper.\r\n\ int\:\ issueNumber\ adds\ the\ number\ of\ issue\ of\ the\ paper.\ String\:\ genre\ adds\ the\ type\ of\ genre.\r\n
+comment2.params=newspaperToBeRemoved
+comment2.target=void\ removeNewspaper(java.lang.String)
+comment2.text=\r\n\ Removes\ a\ newspaper,\ type\ in\ the\ title\ of\ the\ paper\ you\ wish\ to\ remove.\r\n\ \r\n\ @param\ String\:\ newspaperToBeRemoved\ will\ find\ a\ matching\ key\ in\ the\ newsCollection\ hashMap\r\n\ and\ remove\ the\ object.\r\n
+comment3.params=title\ price
+comment3.target=void\ selectPrice(java.lang.String,\ double)
+comment3.text=\r\n\ Method\ that\ sets\ the\ price\ of\ the\ paper\r\n\r\n\ @param\ String\:\ tirle\ of\ the\ paper.\ \ double\:\ price\ of\ the\ paper.\r\n
+comment4.params=
+comment4.target=void\ displayCollection()
+comment4.text=\r\n\ This\ displays\ the\ entire\ collection\ of\ newspapers\ with\ their\ information.\r\n
+comment5.params=titleSearch\ publisherSearch
+comment5.target=void\ searchForNewspaper(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Search\ for\ a\ specific\ newspaper\ by\ typing\ the\ title\ and\ publisher\ of\ the\ newspaper.\r\n\ Remember\ to\ type\ in\ the\ exact\ correct\ title\ and\ publisher\ name.\r\n\ \r\n\ @param\ String\:\ titleSearch\ checks\ the\ stored\ titles\ in\ the\ hashMap\ collection\ against\ the\ \r\n\ title\ we're\ searching\ for.\ String\:\ publisherSearch\ does\ the\ same,\ but\ for\ the\ publisher\ name.\r\n
+comment6.params=publisherSearch
+comment6.target=void\ searchAllFromPublisher(java.lang.String)
+comment6.text=\r\n\ When\ searching\ for\ publisher,\ display\ all\ that\ is\ published\ by\ that\ publisher.\r\n\ \r\n\ @param\ String\:\ publisherSearch\ compares\ the\ typed\ publisher\ parameter\ to\ all\ the\r\n\ publishers\ stored\ in\ newsCollection.\r\n
+numComments=7
